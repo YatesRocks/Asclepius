@@ -1,6 +1,10 @@
+#![allow(unused)]
+#![allow(non_snake_case)]
 #[macro_use]
 extern crate rocket;
 use rocket_dyn_templates::Template;
+
+mod backend;
 mod hbs;
 #[cfg(test)]
 mod tests;

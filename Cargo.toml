@@ -1,3 +1,6 @@
+[workspace]
+members = ["ftpserver"]
+
 [package]
 name = "Asclepius"
 version = "0.1.0"
